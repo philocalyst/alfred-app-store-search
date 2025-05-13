@@ -14,9 +14,9 @@ Search the Mac App Store directly from Alfred using the `mas` CLI.
 
 Type your keyword followed by a search term:
 
-![Alfred search for mas](assets/search.png)
+![Alfred search for mas](Assets/search.png)
 
-![Alfred results for mas slack](assets/results.png)
+![Alfred results for mas slack](Assets/results.png)
 
 • <kbd>↩︎</kbd> Open the selected app in the Mac App Store.  
 • <kbd>⌘</kbd><kbd>C</kbd> Copy the App ID to the clipboard.  
