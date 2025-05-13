@@ -33,4 +33,4 @@ Results are cached for 24 hours by default (cache lifetime configured in `search
 
 • Ensure you’re signed in to the Mac App Store and that `mas` is correctly installed (`mas version`).  
 • For bugs or feature requests, please open an issue on GitHub:  
-  https://github.com/philocalyst/app-store-search/issues
+  https://github.com/philocalyst/alfred-app-store-search/issues
