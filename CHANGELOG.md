@@ -6,6 +6,18 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+## [1.0.1] – 2025-05-13
+
+### Added
+- Comprehensive Alfred workflow documentation in README:
+  - Project overview, setup instructions, search usage examples, configuration guide, and troubleshooting.
+- Populated `info.plist` metadata:
+  - `description` key set to “Search apps on the app store”
+  - `readme` key filled with full usage guide and screenshots
+  - `version` key set to “v1.0.0”
+  - `webaddress` key pointing to https://github.com/philocalyst/alfred-app-store-search
+- Corrected repository URLs in README and troubleshooting section to point to `philocalyst/alfred-app-store-search`
+
 ## [0.1.0] – 2025-05-13
 
 ### Added
@@ -21,5 +33,6 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
-[Unreleased]: https://github.com/philocalyst/app-store-search/compare/v0.1.0...HEAD  
+[Unreleased]: https://github.com/philocalyst/alfred-app-store-search/compare/v1.0.1...HEAD  
+[1.0.1]: https://github.com/philocalyst/alfred-app-store-search/compare/v1.0.0...v1.0.1
 [0.1.0]:    https://github.com/philocalyst/app-store-search/compare/v0.0.0...v0.1.0

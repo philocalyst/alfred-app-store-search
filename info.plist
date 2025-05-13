@@ -239,7 +239,7 @@ Results are cached for 24 hours by default (cache lifetime configured in `search
 		</dict>
 	</array>
 	<key>version</key>
-	<string>v1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/philocalyst/alfred-app-store-search</string>
 </dict>
