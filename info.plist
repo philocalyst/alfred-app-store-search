@@ -6,6 +6,19 @@
 	<string>com.philocalyst.app-store-search</string>
 	<key>connections</key>
 	<dict>
+		<key>C38F8F2C-246F-4BDC-B431-90EEA564D209</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E5C8FDA1-8048-4905-95B5-B32596D69821</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>E5C8FDA1-8048-4905-95B5-B32596D69821</key>
 		<array>
 			<dict>
@@ -30,6 +43,60 @@
 	<string>App Store Search</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>mas open {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>61B1E226-9EEA-4705-9499-01914973279D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>C38F8F2C-246F-4BDC-B431-90EEA564D209</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -79,29 +146,6 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>mas open {query}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>61B1E226-9EEA-4705-9499-01914973279D</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -116,14 +160,23 @@
 			<key>ypos</key>
 			<real>170</real>
 		</dict>
+		<key>C38F8F2C-246F-4BDC-B431-90EEA564D209</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>175</real>
+		</dict>
 		<key>E5C8FDA1-8048-4905-95B5-B32596D69821</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<real>50</real>
+			<real>135</real>
 			<key>ypos</key>
-			<real>45</real>
+			<real>335</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
